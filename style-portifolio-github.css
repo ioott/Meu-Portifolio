@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+h1 {
+    background-color:rgb(193,158,224);
+    padding: 60px 500px 20px 300px;
+    margin-top: 0px;
+    font-size: 60px;
+    font-family: Ubuntu;
+    color: white;
+}
+#cor-h1 {
+    color: white;
+}
+img {
+    float: right;
+    position: absolute;
+    top: 15px;
+    left: 850px;
+}
+#linkedin {
+    background-color: rgb(222, 201, 233);
+    color: rgb(98, 71, 170);
+    font-family: Ubuntu;
+    font-size: 18px;
+    padding: 55px 20px 10px 20px;
+    float: left;
+    position: absolute;
+    top: 105px;
+    left: 660px;
+}
+.corpo {
+    padding-top: 20px;
+    padding-left: 60px;
+}
+#eu {
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+    font-family: Ubuntu;
+}
+.interesses {
+    font-size: 20px;
+    font-family: Ubuntu;
+}
+h2 {
+    font-family: Ubuntu;
+}
+ul {
+    font-family:Ubuntu;
+}
+.h4 {
+    padding-left: 60px;
+    font-family: Ubuntu;
+}
