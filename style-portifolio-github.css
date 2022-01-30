@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Ubuntu;
 }
 h1 {
     background-color:rgb(193,158,224);
@@ -7,9 +8,6 @@ h1 {
     margin-top: 0px;
     font-size: 60px;
     font-family: Ubuntu;
-    color: white;
-}
-#cor-h1 {
     color: white;
 }
 img {
@@ -29,27 +27,123 @@ img {
     top: 105px;
     left: 660px;
 }
-.corpo {
-    padding-top: 20px;
-    padding-left: 60px;
+#barras {
+    background-color:rgb(98,71,170);
+    color: white;
+    width: 800px;
+    padding: 7px;
 }
-#eu {
-    font-style: italic;
-    text-align: center;
-    font-size: 25px;
-    font-family: Ubuntu;
-}
-.interesses {
+.listas {
     font-size: 20px;
-    font-family: Ubuntu;
+    background-color: rgb(222, 201, 233);
+    color: rgb(98, 71, 170);
 }
-h2 {
-    font-family: Ubuntu;
+#eu-sou {
+    padding: 10px 0px 10px 35px;
+    line-height: 30px;
 }
-ul {
-    font-family:Ubuntu;
+#interesses {
+    padding: 10px 0px 70px 35px;
+    line-height: 30px;
 }
-.h4 {
-    padding-left: 60px;
-    font-family: Ubuntu;
+.floatL {
+    float: left;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.floatR {
+    float: right;
+    padding-right: 110px;
+    padding-top: 20px;
+}
+.eu {
+    font-style: italic;
+    font-size: 30px;
+    padding: 380px 400px 50px 400px;
+    position: relative;
+    color: rgb(98, 71, 170);
+}
+#estudando {
+    padding-left: 80px;
+    float: left;
+    color: rgb(98, 71, 170);
+}
+.estudando {
+    align-content: center;
+    display: inline-block;
+}
+#js {
+    float: none;
+    top: 10px;
+    position: relative;
+    left: 10px;
+}
+#ts {
+    float: none;
+    top: 10px;
+    position: relative;
+    left: 15px;
+}
+#react {
+    float: none;
+    top: 10px;
+    position: relative;
+    left: 20px;
+}
+#html {
+    float: none;
+    top: 10px;
+    position: relative;
+    left: 25px;
+}
+#css {
+    float: none;
+    top: 10px;
+    position: relative;
+    left: 30px;
+}
+#redux {
+    float: none;
+    top: 10px;
+    position: relative;
+    left: 35px;
+}
+#docker {
+    float: none;
+    top: 10px;
+    position: relative;
+    left: 40px;
+}
+#node {
+    float: none;
+    top: 15px;
+    position: relative;
+    left: 45px;
+}
+#mongo {
+    float: none;
+    top: 10px;
+    position: relative;
+    left: 50px;
+}
+#python {
+    float: none;
+    top: 10px;
+    position: relative;
+    left: 55px;
+}
+#agille {
+    float: none;
+    top: 10px;
+    position: relative;
+    left: 60px;
+}
+#sql {
+    float: none;
+    top: 10px;
+    position: relative;
+    left: 70px;
+}
+h4 {
+  text-align: center;
 }
