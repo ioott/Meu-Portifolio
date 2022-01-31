@@ -68,7 +68,7 @@ img {
     color: rgb(98, 71, 170);
 }
 .estudando {
-    display: inline-block;
+    display: inline-table;
     padding-left: 500px;
 }
 #git {
