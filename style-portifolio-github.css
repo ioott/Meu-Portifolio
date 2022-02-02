@@ -1,151 +1,186 @@
 body {
+    background-color: rgb(253, 251, 251);
+    padding: 0;
     margin: 0;
-    font-family: Ubuntu;
+    font-family:gill sans mt;
 }
-h1 {
-    background-color:rgb(193,158,224);
-    padding: 60px 500px 20px 300px;
-    margin-top: 0px;
-    font-size: 60px;
-    font-family: Ubuntu;
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    background-color: lightseagreen;
     color: white;
+    width: 100%;
+    box-shadow: 2px 5px 5px rgb(16, 94, 90);
+    z-index: 1;
 }
-img {
-    float: right;
-    position: absolute;
-    top: 15px;
-    left: 850px;
+#titulo {
+    text-align: center;
+    font-size: 4em;
+    font-style: italic;
+    text-shadow: 2px 5px 5px rgb(8, 49, 47);
+    letter-spacing: 0.02em;
+    word-spacing: 0.1em;
 }
-#linkedin {
-    background-color: rgb(222, 201, 233);
-    color: rgb(98, 71, 170);
-    font-family: Ubuntu;
-    font-size: 18px;
-    padding: 55px 20px 10px 20px;
+#minha_foto {
     float: left;
-    position: absolute;
-    top: 105px;
-    left: 660px;
+    z-index: 2;
+    position: fixed;
+    padding: 1em 0 0 20em;
 }
-#barras {
-    background-color:rgb(98,71,170);
-    color: white;
-    width: 800px;
-    padding: 7px;
+span {
+    color: black;
+    padding-left: 1em;
+    font-size: 0.8em;
 }
-.listas {
-    font-size: 20px;
-    background-color: rgb(222, 201, 233);
-    color: rgb(98, 71, 170);
-}
-#eu-sou {
-    padding: 10px 0px 10px 35px;
+
+main {
+    font-size: 25px;
     line-height: 30px;
+    padding: 0em;
+}
+
+
+nav {
+    padding: 12em 4.5em 0 0; 
+    text-align: right;
+}
+
+
+.lado-esquerdo {
+    float: left;
+    background-color: lightseagreen;
+    width: 30em;
+    height: 17.5em;
+    font-size: 0.7em;
+    color: white;
+    margin-left: 4em;
+    margin-top: -1.6em;
+    padding: 0.5em 1em 1em 1em;
+    text-align: left;
+    line-height: 1.6em;
+    box-shadow: 2px 5px 5px rgb(16, 94, 90);
+    text-shadow: 1px 1px 1px rgb(8, 49, 47);
+    font-weight: bold;
+}
+h2 {
+    text-align: left;
+    text-shadow: 2px 5px 5px rgb(8, 49, 47);
+}
+#transparencia-esquerda {
+    background-color: black;
+    opacity: 10%;
+    float: left;
+    width: 30em;
+    height: 1.5em;
+    margin-left: 0em;
+    margin-top: -14.5em;
+    border-radius: 1em;
+}
+.parentesis {
+    font-size: 1em;
+    color: white;
+    font-weight: lighter;
+}
+.links-box {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+
+
+.lado-direito {
+    float: right;
+    background-color: lightseagreen;
+    width: 30em;
+    height: 17.5em;
+    font-size: 0.7em;
+    color: white;
+    margin-right: 4em;
+    margin-top: -1.6em;
+    padding: 0.5em 1em 1em 1em;
+    text-align: left;
+    line-height: 1.6em;
+    font-weight: bold;
+    box-shadow: 2px 5px 5px rgb(16, 94, 90);
+    text-shadow: 1px 1px 1px rgb(8, 49, 47);
+}
+#transparencia-direita {
+    background-color: black;
+    opacity: 10%;
+    float: right;
+    width: 30em;
+    height: 1.5em;
+    margin-left: 0em;
+    margin-top: -8em;
+    border-radius: 1em;
 }
 #interesses {
-    padding: 10px 0px 70px 35px;
-    line-height: 30px;
+    list-style: none;
 }
-.floatL {
-    float: left;
-    padding-left: 80px;
-    padding-top: 20px;
+
+
+p {
+    font-size: 1em;
+    text-align: center;
+    padding: 13em 0 0 0;
+    color: lightseagreen;
+    text-shadow: 1px 1px 1px rgb(8, 49, 47);
 }
-.floatR {
-    float: right;
-    padding-right: 110px;
-    padding-top: 20px;
+
+.centro {
+    background-color: lightseagreen;
+    width: 67em;
+    height: 24.5em;
+    font-size: 0.7em;
+    color: white;
+    margin-left: 4em;
+    margin-top: 1em;
+    padding: 0.5em 1em 1em 1em;
+    text-align: left;
+    line-height: 1.6em;
+    box-shadow: 2px 5px 5px rgb(16, 94, 90);
+    text-shadow: 1px 1px 1px rgb(8, 49, 47);
+    font-weight: bold;
 }
-.eu {
-    font-style: italic;
-    font-size: 30px;
-    padding: 380px 400px 50px 400px;
+#habilidades {
+    text-align: left;
+    font-size: 1.4em;
+    text-decoration: none;
+    color: 2px 5px 5px rgb(8, 49, 47);
+    padding: 1em 0 0 3.2em;
     position: relative;
-    color: rgb(98, 71, 170);
 }
-#estudando {
-    padding-left: 80px;
-    color: rgb(98, 71, 170);
+table {
+    margin-top: -2em;
+    padding: 0 0 0 16em;
+    z-index: 1;
 }
-.estudando {
-    display: inline-table;
-    padding-left: 500px;
+table th{
+    text-align: center;
+    padding: 0 20px 0 20px;
 }
-#git {
-    top: 0px;
-    position: relative;
-    left: 90px;
+table td{
+    text-align: center;
+    padding: 3.5px;
 }
-#github {
-    top: 0px;
-    position: relative;
-    left: 90px;
+#asterisco {
+    color: white;
+    font-weight: lighter;
+    font-size: 0.9em;
 }
-#js {
-    top: 0px;
-    position: relative;
-    left: 100px;
+#transparencia-central {
+    background-color: black;
+    opacity: 10%;
+    width: 67em;
+    height: 8.5em;
+    margin-left: 0em;
+    margin-top: -22em;
+    border-radius: 1em;
+    z-index: 2;
 }
-#react {
-    top: 0px;
-    position: relative;
-    left: 110px;
-}
-#html {
-    top: 0px;
-    position: relative;
-    left: 120px;
-}
-#css {
-    top: 0px;
-    position: relative;
-    left: 130px;
-}
-#redux {
-    top: 0px;
-    position: relative;
-    left: 140px;
-}
-#ts {
-    top: 0px;
-    position: relative;
-    left: 150px;
-}
-#docker {
-    top: 0px;
-    position: relative;
-    left: 160px;
-}
-#node {
-    top: 0px;
-    position: relative;
-    left: 170px;
-}
-#mongo {
-    top: 0px;
-    position: relative;
-    left: 180px;
-}
-#python {
-    top: 0px;
-    position: relative;
-    left: 190px;
-}
-#sql {
-    top: 0px;
-    position: relative;
-    left: 200px;
-}
-#agille {
-    top: 0px;
-    position: relative;
-    left: 210px;
-}
-#ubuntu {
-    top: 0px;
-    position: relative;
-    left: 220px;
-}
-h4 {
-  text-align: center;
+
+
+footer {
+    text-align: center;
 }
