@@ -67,16 +67,6 @@ h2 {
     text-align: left;
     text-shadow: 2px 5px 5px rgb(8, 49, 47);
 }
-#transparencia-esquerda {
-    background-color: black;
-    opacity: 10%;
-    float: left;
-    width: 30em;
-    height: 1.5em;
-    margin-left: 0em;
-    margin-top: -14.5em;
-    border-radius: 1em;
-}
 .parentesis {
     font-size: 1em;
     color: white;
@@ -104,16 +94,6 @@ h2 {
     font-weight: bold;
     box-shadow: 2px 5px 5px rgb(16, 94, 90);
     text-shadow: 1px 1px 1px rgb(8, 49, 47);
-}
-#transparencia-direita {
-    background-color: black;
-    opacity: 10%;
-    float: right;
-    width: 30em;
-    height: 1.5em;
-    margin-left: 0em;
-    margin-top: -8em;
-    border-radius: 1em;
 }
 #interesses {
     list-style: none;
@@ -168,16 +148,6 @@ table td{
     color: white;
     font-weight: lighter;
     font-size: 0.9em;
-}
-#transparencia-central {
-    background-color: black;
-    opacity: 10%;
-    width: 67em;
-    height: 8.5em;
-    margin-left: 0em;
-    margin-top: -22em;
-    border-radius: 1em;
-    z-index: 2;
 }
 
 #em-construcao{
