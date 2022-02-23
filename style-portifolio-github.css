@@ -106,11 +106,12 @@ p {
 #container3{
     display: flex;
     justify-content: center;
+    margin: 1em;
 }
 .centro {
     background-color: lightseagreen;
     width: 63em;
-    height: 24.5em;
+    height: 26em;
     border-radius: 1em;
     font-size: 0.7em;
     color: white;
@@ -133,7 +134,6 @@ p {
 table {
     margin-top: -2em;
     padding: 0 0 0 16em;
-    z-index: 1;
 }
 table th{
     text-align: center;
@@ -141,7 +141,6 @@ table th{
 }
 table td{
     text-align: center;
-    padding: 3.5px;
 }
 #asterisco {
     color: white;
@@ -153,6 +152,7 @@ table td{
     display: flex;
     justify-content: center;
     margin: 1em;
+    height: 26em;
 }
 #em-construcao{
     text-align: center;
