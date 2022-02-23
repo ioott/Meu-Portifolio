@@ -5,33 +5,26 @@ body {
     font-family:gill sans mt;
 }
 
+#container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #cabecalho {
     position: fixed;
-    top: 0;
     background-color: lightseagreen;
     color: white;
     width: 100%;
     box-shadow: 2px 5px 5px rgb(16, 94, 90);
-    z-index: 1;
+    padding: 0.3em;
 }
 #titulo {
-    text-align: center;
     font-size: 4em;
     font-style: italic;
     text-shadow: 2px 5px 5px rgb(8, 49, 47);
     letter-spacing: 0.02em;
     word-spacing: 0.1em;
-}
-#minha_foto {
-    float: left;
-    z-index: 2;
-    position: fixed;
-    padding: 1em 0 0 20em;
-}
-span {
-    color: black;
     padding-left: 1em;
-    font-size: 0.8em;
 }
 
 main {
@@ -40,28 +33,30 @@ main {
     padding: 0em;
 }
 
-
 nav {
     padding: 12em 4.5em 0 0; 
     text-align: right;
 }
 
-
+#container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .lado-esquerdo {
-    float: left;
     background-color: lightseagreen;
     width: 30em;
     height: 17.5em;
     font-size: 0.7em;
     color: white;
-    margin-left: 4em;
-    margin-top: -1.6em;
     padding: 0.5em 1em 1em 1em;
     text-align: left;
     line-height: 1.6em;
     box-shadow: 2px 5px 5px rgb(16, 94, 90);
     text-shadow: 1px 1px 1px rgb(8, 49, 47);
     font-weight: bold;
+    border-radius: 1em;
+    margin: 0.5em;
 }
 h2 {
     text-align: left;
@@ -80,20 +75,19 @@ h2 {
 
 
 .lado-direito {
-    float: right;
     background-color: lightseagreen;
     width: 30em;
     height: 17.5em;
     font-size: 0.7em;
     color: white;
-    margin-right: 4em;
-    margin-top: -1.6em;
     padding: 0.5em 1em 1em 1em;
     text-align: left;
-    line-height: 1.6em;
+    line-height: 2em;
     font-weight: bold;
     box-shadow: 2px 5px 5px rgb(16, 94, 90);
     text-shadow: 1px 1px 1px rgb(8, 49, 47);
+    border-radius: 1em;
+    margin: 0.5em;
 }
 #interesses {
     list-style: none;
@@ -103,25 +97,27 @@ h2 {
 p {
     font-size: 1em;
     text-align: center;
-    padding: 13em 0 0 0;
     color: lightseagreen;
     text-shadow: 1px 1px 1px rgb(8, 49, 47);
 }
 
+#container3{
+    display: flex;
+    justify-content: center;
+}
 .centro {
     background-color: lightseagreen;
-    width: 67em;
+    width: 63em;
     height: 24.5em;
     font-size: 0.7em;
     color: white;
-    margin-left: 4em;
-    margin-top: 1em;
     padding: 0.5em 1em 1em 1em;
     text-align: left;
     line-height: 1.6em;
     box-shadow: 2px 5px 5px rgb(16, 94, 90);
     text-shadow: 1px 1px 1px rgb(8, 49, 47);
     font-weight: bold;
+    border-radius: 1em;
 }
 #habilidades {
     text-align: left;
@@ -150,6 +146,11 @@ table td{
     font-size: 0.9em;
 }
 
+#container4{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
 #em-construcao{
     text-align: center;
     font-size: 2em;
