@@ -111,7 +111,7 @@ p {
 .centro {
     background-color: lightseagreen;
     width: 63em;
-    height: 26em;
+    height: 28em;
     border-radius: 1em;
     font-size: 0.7em;
     color: white;
@@ -152,7 +152,7 @@ table td{
     display: flex;
     justify-content: center;
     margin: 1em;
-    height: 26em;
+    height: 28em;
 }
 #em-construcao{
     text-align: center;
