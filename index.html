@@ -1,64 +1,82 @@
+<!--MEU PORTIFÓLIO-->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--RESPONSIVIDADE-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portifólio</title>
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--FONTE-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Sacramento&display=swap" rel="stylesheet">
+
+    <!--CSS-->
     <link rel="stylesheet" href="style-portifolio-github.css">
+
+    <title>Vania Ioott</title>
+
 </head>
+
 <body>
 
-    <header id="cabecalho">
-        <div id='container1'>
-            <img alt="Minha Foto" width="130" height="130" src="profile-pic.png">
-            <h1 id="titulo">Vania Ioott</h1>
-        </div>
+    <header class="header flex">
+        <h1 class="name">Vania Ioott</h1>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+            <a class="nav-link active" href="#">Sobre mim</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portifólio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+            </li>
+        </ul>
     </header>
 
-    <nav id="link-nav">
-        <a href="https://www.linkedin.com/in/vania-ioott/" target="_blank"><img alt="Linkedin" height="60" width="100" src="https://logosmarcas.net/wp-content/uploads/2020/04/Linkedin-Logo-2003%E2%80%932011.jpg"></a>
-    </nav>
 
     <main>
+        <section class='container flex'>
+            <article class="artigo1">
+                <h2>Eu sou:</h2>
+                <ul id="eu-sou">
+                    <li>🇧🇷 Brasileira, nascida no Rio de Janeiro/ RJ</li>
+                    <li>Estudante de Desenvolvimento Web Full Stack na <a class="links-box" href="https://www.betrybe.com/formacao-desenvolvimento-web" target="_blank">Trybe</a><span class="parentesis"><br>(Término: Dez/22)</span></li>
+                    <li>Graduanda de Ciências Sociais na <a class="links-box" href="https://www.uerj.br/" target="_blank">UERJ </a>- Universidade do Estado do Rio de Janeiro. Vou me especializar em Antropologia<span class="parentesis"><br>(Início: 2020/01)</span></li>
+                    <li>Bolsista de Iniciação Científica pelo CNPQ</li>
+                    <li>Gestora Empresarial - MEI</li>
+                </ul>
+            </article>
+        </section>
 
-        <div id='container2'>
+        <section class='container flex'>
+            <article class="artigo2">
+                <h2>Me interesso por:</h2>
+                <ul id="interesses">
+                    <li>💻 Programação</li>
+                    <li>📊 Ciência de Dados</li>
+                    <li>🛒 Antropologia do Consumo</li>
+                    <li>🤖 Novas Tecnologias</li>
+                </ul>
+            </article>
+        </section>
 
-            <section>
-                <article class="lado-esquerdo">
-                    <h2>Eu sou:</h2>
-                    <ol>
-                        <li>🇧🇷 Brasileira, nascida no Rio de Janeiro/ RJ;</li>
-                        <li>Estudante de Desenvolvimento Web Full Stack na <a class="links-box" href="https://www.betrybe.com/" target="_blank">Trybe</a>.<span class="parentesis">(Término: Dez/22)</span>;</li>
-                        <li>Graduanda de Ciências Sociais na <a class="links-box" href="https://www.uerj.br/" target="_blank">UERJ - Universidade do Estado do Rio de Janeiro.</a><br>Vou me especializar em Antropologia.<span class="parentesis">(Início: 2020/01)</span>;</li>
-                        <li>Bolsista de Iniciação Científica pelo <a class="links-box" href="https://www.gov.br/cnpq/pt-br" target="_blank">CNPQ</a>;</li>
-                        <li>Gestora Empresarial - MEI.</li>
-                    </ol>
-                    <p></p>
-                </article>
-            </section>
-    
-            <section>
-                <aside class="lado-direito">
-                    <h2>Me interesso por:</h2>
-                    <ul id="interesses">
-                        <li>💻 Programação</li>
-                        <li>📊 Ciência de Dados</li>
-                        <li>🛒 Antropologia do Consumo</li>
-                        <li>🤖 Novas Tecnologias</li>
-                    </ul>
-                </aside>
-            </section>
+        <p><em>"Sou apaixonada por aprender sobre tudo, muito curiosa e motivada por desafios"</em></p>
 
-        </div>
-
-            <p><em>"Sou apaixonada por aprender sobre tudo, muito curiosa e motivada por desafios"</em></p>
-
-        <section id='container3'>
-            <article class="centro">
+        <section class='container flex'>
+            <article class="artigo3">
                 <h2>Habilidades Técnicas:</h2>
                 <span id="asterisco">* estou estudando</span>
-                <table summary="Tabela com informações sobre o que eu estou estudando, com um nível de cabeçalho de linha">
+                <table class='flex table table-borderless' summary="Tabela com informações sobre o que eu estou estudando, com um nível de cabeçalho de linha">
                     <tr>
                         <br>
                             <th>Versionamento</th>
@@ -69,7 +87,7 @@
                     <tr>
                             <td><img alt="Git" height="50" width="45" src="git-icon.png"></td>
                             <td><img alt="HTML" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></td>
-                            <td><img alt="SQL" height="35" width="30" src="https://icon-library.com/images/sql-icon/sql-icon-8.jpg">*</td>
+                            <td><img alt="SQL" height="35" width="30" src="https://icon-library.com/images/sql-icon/sql-icon-8.jpg">  *</td>
                             <td><img alt="Ubuntu" height="40" width="40" src="https://cdn-icons-png.flaticon.com/512/518/518713.png"></td>
                     </tr>
                     <tr>
@@ -112,21 +130,21 @@
             </article>
         </section>
 
-        <section id='container4'>
-            <article class="centro">
+        <section class='container flex' id="portfolio">
+            <article class="artigo4">
                 <h2>Projetos</h2>
-                <h3 id="em-construcao">Em construção</h3>
+                <h3>Em construção</h3>
             </article>
         </section>
-        
-    </main>
 
-    <footer id="rodape">
-        <br>
-        <br>
-        <br>
-        <br>
-        Desenvolvido por Vania Ioott/ 2022
-    </footer>
+        <section class='container flex' id="contato">
+            <article class="artigo5">
+                <h2>Contato</h2>
+                <h3>Em construção</h3>
+            </article>
+        </section>
+
+    </main>
+    <script src=""></script>
 </body>
 </html>

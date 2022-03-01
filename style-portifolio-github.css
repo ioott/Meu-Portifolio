@@ -1,164 +1,822 @@
-body {
-    background-color: rgb(253, 251, 251);
-    padding: 0;
+*{
     margin: 0;
-    font-family:gill sans mt;
+    padding: 0;
+}
+body{
+    font-family: 'Baloo 2', cursive;
 }
 
-#container1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#cabecalho {
-    position: fixed;
-    background-color: lightseagreen;
-    color: white;
-    width: 100%;
-    box-shadow: 2px 5px 5px rgb(16, 94, 90);
-    padding: 0.3em;
-}
-#titulo {
-    font-size: 4em;
-    font-style: italic;
-    text-shadow: 2px 5px 5px rgb(8, 49, 47);
-    letter-spacing: 0.02em;
-    word-spacing: 0.1em;
-    padding-left: 1em;
-}
-
-main {
-    font-size: 25px;
-    line-height: 30px;
-    padding: 0em;
-}
-
-nav {
-    padding: 12em 4.5em 0 0; 
-    text-align: right;
-}
-
-#container2{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.lado-esquerdo {
-    background-color: lightseagreen;
-    width: 30em;
-    height: 17.5em;
-    border-radius: 1em;
-    font-size: 0.7em;
-    color: white;
-    padding: 0.5em 1em 1em 1em;
-    text-align: left;
-    line-height: 1.6em;
-    box-shadow: 2px 5px 5px rgb(16, 94, 90);
-    text-shadow: 1px 1px 1px rgb(8, 49, 47);
-    font-weight: bold;
-    border-radius: 1em;
-    margin: 0.5em;
-}
-h2 {
-    text-align: left;
-    text-shadow: 2px 5px 5px rgb(8, 49, 47);
-}
-.parentesis {
-    font-size: 1em;
-    color: white;
-    font-weight: lighter;
-}
-.links-box {
-    text-decoration: none;
-    color: white;
-    text-decoration: underline;
-}
-
-
-.lado-direito {
-    background-color: lightseagreen;
-    width: 30em;
-    height: 17.5em;
-    border-radius: 1em;
-    font-size: 0.7em;
-    color: white;
-    padding: 0.5em 1em 1em 1em;
-    text-align: left;
-    line-height: 2em;
-    font-weight: bold;
-    box-shadow: 2px 5px 5px rgb(16, 94, 90);
-    text-shadow: 1px 1px 1px rgb(8, 49, 47);
-    border-radius: 1em;
-    margin: 0.5em;
-}
-#interesses {
-    list-style: none;
-}
-
-
-p {
-    font-size: 1em;
-    text-align: center;
-    color: lightseagreen;
-    text-shadow: 1px 1px 1px rgb(8, 49, 47);
-}
-
-#container3{
-    display: flex;
-    justify-content: center;
-    margin: 1em;
-}
-.centro {
-    background-color: lightseagreen;
-    width: 63em;
-    height: 28em;
-    border-radius: 1em;
-    font-size: 0.7em;
-    color: white;
-    padding: 0.5em 1em 1em 1em;
-    text-align: left;
-    line-height: 1.6em;
-    box-shadow: 2px 5px 5px rgb(16, 94, 90);
-    text-shadow: 1px 1px 1px rgb(8, 49, 47);
-    font-weight: bold;
-    border-radius: 1em;
-}
-#habilidades {
-    text-align: left;
-    font-size: 1.4em;
-    text-decoration: none;
-    color: 2px 5px 5px rgb(8, 49, 47);
-    padding: 1em 0 0 3.2em;
-    position: relative;
-}
-table {
-    margin-top: -2em;
-    padding: 0 0 0 16em;
-}
-table th{
-    text-align: center;
-    padding: 0 20px 0 20px;
-}
-table td{
-    text-align: center;
-}
-#asterisco {
-    color: white;
-    font-weight: lighter;
-    font-size: 0.9em;
+/*TAMANHO XS - PORTRAIT MOBILE*/
+@media screen and (max-width: 575px) {
+    .header{
+        background-color: lightseagreen;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        justify-content: space-between;
+        box-shadow: 0px 3px 9px darkolivegreen;
+    }
+    .flex{
+        display: flex;
+    }
+    .name{
+        font-family: 'Sacramento', cursive;
+        text-decoration: none;
+        color: white;
+        font-size: 40px;
+        padding-top:20px;
+    }
+    .nav-link{
+        color: white;
+        font-size: 18px;
+    }
+    .container{
+        justify-content: center;
+        width: 90%;
+    }
+    .artigo1{
+        margin-top: 150px;
+        background-color: lightseagreen;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    ul{
+        font-size: 22px;
+        color: white;
+    }
+    .artigo2{
+        margin-top: 40px;
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    h2{
+        color: white;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px darkolivegreen;
+        padding-bottom: 15px;
+    }
+    .links-box{
+        text-decoration: none;
+        color: white;
+        text-decoration: underline;
+    }
+    .parentesis{
+        font-size: 17px;
+    }
+    #eu-sou{
+        list-style-type: square;
+        line-height: 35px;
+    }
+    #interesses{
+        list-style-type: none;
+        line-height: 40px;
+    }
+    p{
+        text-align: center;
+        padding: 40px 0 20px 0;
+        font-size: 25px;
+        color: darkolivegreen;
+        width: 90%;
+    }
+    .artigo3{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    .artigo3 h2{
+        padding-bottom: 0;
+    }
+    #asterisco{
+        color: darkolivegreen;
+    }
+    td{
+        font-size: 20px;
+        padding: 20px;
+    }
+    tr{
+        justify-content:space-around;
+    }
+    #table-title{
+        color: white;
+    }
+    .table{
+        text-align: center;
+        justify-content:center;
+        background-color: white;
+        border-radius: 10px;
+        padding: 30px 0 0 0;
+        color: darkolivegreen;
+    }
+    .artigo4{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        margin-top: 100px;
+        margin-bottom: 40px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    h3{
+        text-align: center;
+        color: darkolivegreen;
+    }
+    .artigo5{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        margin-bottom: 140px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
 }
 
-#container4{
-    display: flex;
-    justify-content: center;
-    margin: 1em;
-    height: 28em;
-}
-#em-construcao{
-    text-align: center;
-    font-size: 2em;
+/*TAMANHO SM - LANDSCAPE MOBILE*/
+@media screen and (min-width: 576px) {
+    .header{
+        background-color: lightseagreen;
+        position: fixed;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+        box-shadow: 0px 3px 9px darkolivegreen;
+    }
+    .flex{
+        display: flex;
+    }
+    .name{
+        font-family: 'Sacramento', cursive;
+        text-decoration: none;
+        color: white;
+        font-size: 40px;
+        padding: 20px 0 0px 60px;
+    }
+    .nav{
+        padding-right: 0px;
+    }
+    .nav-link{
+        color: white;
+        font-size: 18px;
+    }
+    .container{
+        justify-content: center;
+    }
+    .artigo1{
+        margin-top: 120px;
+        background-color: lightseagreen;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    ul{
+        font-size: 22px;
+        color: white;
+    }
+    .artigo2{
+        margin-top: 40px;
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    h2{
+        color: white;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px darkolivegreen;
+        padding-bottom: 15px;
+    }
+    .links-box{
+        text-decoration: none;
+        color: white;
+        text-decoration: underline;
+    }
+    .parentesis{
+        font-size: 17px;
+    }
+    #eu-sou{
+        list-style-type: square;
+        line-height: 35px;
+    }
+    #interesses{
+        list-style-type: none;
+        line-height: 40px;
+    }
+    p{
+        text-align: center;
+        padding: 40px 0 20px 0;
+        font-size: 25px;
+        color: darkolivegreen;
+        width: 90%;
+    }
+    .artigo3{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    .artigo3 h2{
+        padding-bottom: 0;
+    }
+    #asterisco{
+        color: darkolivegreen;
+    }
+    td{
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+    }
+    tr{
+        justify-content:space-around;
+    }
+    #table-title{
+        color: white;
+    }
+    .table{
+        text-align: center;
+        justify-content:center;
+        background-color: white;
+        border-radius: 30%;
+        padding: 30px 0 0 0;
+        color: darkolivegreen;
+    }
+    .artigo4{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        margin-top: 150px;
+        margin-bottom: 40px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    h3{
+        text-align: center;
+        color: darkolivegreen;
+    }
+    .artigo5{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        margin-bottom: 140px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
 }
 
-footer {
-    text-align: center;
+/*TAMANHO MD - PORTRAIT TABLET*/
+@media screen and (min-width: 768px) {
+    .header{
+        background-color: lightseagreen;
+        position: fixed;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+        box-shadow: 0px 3px 9px darkolivegreen;
+    }
+    .flex{
+        display: flex;
+    }
+    .name{
+        font-family: 'Sacramento', cursive;
+        text-decoration: none;
+        color: white;
+        font-size: 40px;
+        padding: 20px 0 0px 60px;
+    }
+    .nav{
+        padding-right: 0px;
+    }
+    .nav-link{
+        color: white;
+        font-size: 18px;
+    }
+    .container{
+        justify-content: center;
+    }
+    .artigo1{
+        margin-top: 120px;
+        background-color: lightseagreen;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    ul{
+        font-size: 22px;
+        color: white;
+    }
+    .artigo2{
+        margin-top: 40px;
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    h2{
+        color: white;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px darkolivegreen;
+        padding-bottom: 15px;
+    }
+    .links-box{
+        text-decoration: none;
+        color: white;
+        text-decoration: underline;
+    }
+    .parentesis{
+        font-size: 17px;
+    }
+    #eu-sou{
+        list-style-type: square;
+        line-height: 35px;
+    }
+    #interesses{
+        list-style-type: none;
+        line-height: 40px;
+    }
+    p{
+        text-align: center;
+        padding: 40px 0 20px 0;
+        font-size: 25px;
+        color: darkolivegreen;
+    }
+    .artigo3{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    .artigo3 h2{
+        padding-bottom: 0;
+    }
+    #asterisco{
+        color: darkolivegreen;
+    }
+    td{
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+    }
+    tr{
+        justify-content:space-around;
+    }
+    #table-title{
+        color: white;
+    }
+    .table{
+        text-align: center;
+        justify-content:center;
+        background-color: white;
+        border-radius: 30%;
+        padding: 30px 0 0 0;
+        color: darkolivegreen;
+    }
+    .artigo4{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        margin-top: 140px;
+        margin-bottom: 40px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    h3{
+        text-align: center;
+        color: darkolivegreen;
+    }
+    .artigo5{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        margin-bottom: 140px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+}
+
+/*TAMANHO MD - LANDSCAPE TABLET*/
+@media screen and (min-width: 992px) {
+    .header{
+        background-color: lightseagreen;
+        position: fixed;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+        box-shadow: 0px 3px 9px darkolivegreen;
+    }
+    .flex{
+        display: flex;
+    }
+    .name{
+        font-family: 'Sacramento', cursive;
+        text-decoration: none;
+        color: white;
+        font-size: 40px;
+        padding: 20px 0 0px 60px;
+    }
+    .nav{
+        padding-right: 0px;
+    }
+    .nav-link{
+        color: white;
+        font-size: 18px;
+    }
+    .container{
+        justify-content: center;
+    }
+    .artigo1{
+        margin-top: 120px;
+        background-color: lightseagreen;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    ul{
+        font-size: 22px;
+        color: white;
+    }
+    .artigo2{
+        margin-top: 40px;
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    h2{
+        color: white;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px darkolivegreen;
+        padding-bottom: 15px;
+    }
+    .links-box{
+        text-decoration: none;
+        color: white;
+        text-decoration: underline;
+    }
+    .parentesis{
+        font-size: 17px;
+    }
+    #eu-sou{
+        list-style-type: square;
+        line-height: 35px;
+    }
+    #interesses{
+        list-style-type: none;
+        line-height: 40px;
+    }
+    p{
+        text-align: center;
+        padding: 40px 0 20px 0;
+        font-size: 25px;
+        color: darkolivegreen;
+    }
+    .artigo3{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    .artigo3 h2{
+        padding-bottom: 0;
+    }
+    #asterisco{
+        color: darkolivegreen;
+    }
+    td{
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+    }
+    tr{
+        justify-content:space-around;
+    }
+    #table-title{
+        color: white;
+    }
+    .table{
+        text-align: center;
+        justify-content:center;
+        background-color: white;
+        border-radius: 30%;
+        padding: 30px 0 0 0;
+        color: darkolivegreen;
+    }
+    .artigo4{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        margin-top: 130px;
+        margin-bottom: 40px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    h3{
+        text-align: center;
+        color: darkolivegreen;
+    }
+    .artigo5{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        margin-bottom: 140px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+}
+
+/*TAMANHO XL - DESKTOP*/
+@media screen and (min-width: 1200px) {
+    .header{
+        background-color: lightseagreen;
+        position: fixed;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+        box-shadow: 0px 3px 9px darkolivegreen;
+    }
+    .flex{
+        display: flex;
+    }
+    .name{
+        font-family: 'Sacramento', cursive;
+        text-decoration: none;
+        color: white;
+        font-size: 40px;
+        padding: 20px 0 0px 60px;
+    }
+    .nav{
+        padding-right: 0px;
+    }
+    .nav-link{
+        color: white;
+        font-size: 18px;
+    }
+    .container{
+        justify-content: center;
+    }
+    .artigo1{
+        margin-top: 120px;
+        background-color: lightseagreen;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    ul{
+        font-size: 22px;
+        color: white;
+    }
+    .artigo2{
+        margin-top: 40px;
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    h2{
+        color: white;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px darkolivegreen;
+        padding-bottom: 15px;
+    }
+    .links-box{
+        text-decoration: none;
+        color: white;
+        text-decoration: underline;
+    }
+    .parentesis{
+        font-size: 17px;
+    }
+    #eu-sou{
+        list-style-type: square;
+        line-height: 35px;
+    }
+    #interesses{
+        list-style-type: none;
+        line-height: 40px;
+    }
+    p{
+        text-align: center;
+        padding: 40px 0 20px 0;
+        font-size: 25px;
+        color: darkolivegreen;
+    }
+    .artigo3{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    .artigo3 h2{
+        padding-bottom: 0;
+    }
+    #asterisco{
+        color: darkolivegreen;
+    }
+    td{
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+    }
+    tr{
+        justify-content:space-around;
+    }
+    #table-title{
+        color: white;
+    }
+    .table{
+        text-align: center;
+        justify-content:center;
+        background-color: white;
+        border-radius: 30%;
+        padding: 30px 0 0 0;
+        color: darkolivegreen;
+    }
+    .artigo4{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        margin-bottom: 40px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    h3{
+        text-align: center;
+        color: darkolivegreen;
+    }
+    .artigo5{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        margin-bottom: 140px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+}
+
+/*TAMANHO XXL - TV*/
+@media screen and (min-width: 1400px) {
+    .header{
+        background-color: lightseagreen;
+        position: fixed;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+        box-shadow: 0px 3px 9px darkolivegreen;
+    }
+    .flex{
+        display: flex;
+    }
+    .name{
+        font-family: 'Sacramento', cursive;
+        text-decoration: none;
+        color: white;
+        font-size: 40px;
+        padding: 20px 0 0px 60px;
+    }
+    .nav{
+        padding-right: 0px;
+    }
+    .nav-link{
+        color: white;
+        font-size: 18px;
+    }
+    .container{
+        justify-content: center;
+    }
+    .artigo1{
+        margin-top: 120px;
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100%;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    ul{
+        font-size: 22px;
+        color: white;
+    }
+    .artigo2{
+        margin-top: 40px;
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    h2{
+        color: white;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px darkolivegreen;
+        padding-bottom: 15px;
+    }
+    .links-box{
+        text-decoration: none;
+        color: white;
+        text-decoration: underline;
+    }
+    .parentesis{
+        font-size: 17px;
+    }
+    #eu-sou{
+        list-style-type: square;
+        line-height: 35px;
+    }
+    #interesses{
+        list-style-type: none;
+        line-height: 40px;
+    }
+    p{
+        text-align: center;
+        padding: 40px 0 20px 0;
+        font-size: 25px;
+        color: darkolivegreen;
+    }
+    .artigo3{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    .artigo3 h2{
+        padding-bottom: 0;
+    }
+    #asterisco{
+        color: darkolivegreen;
+    }
+    td{
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+    }
+    tr{
+        justify-content:space-around;
+    }
+    #table-title{
+        color: white;
+    }
+    .table{
+        text-align: center;
+        justify-content:center;
+        background-color: white;
+        border-radius: 30%;
+        padding: 30px 0 0 0;
+        color: darkolivegreen;
+    }
+    .artigo4{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        margin-bottom: 40px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    h3{
+        text-align: center;
+        color: darkolivegreen;
+    }
+    .artigo5{
+        background-color: lightseagreen;
+        border-radius: 10px;
+        width: 100em;
+        height: 100%;
+        padding: 25px;
+        margin-bottom: 140px;
+        box-shadow: 0px 5px 9px darkolivegreen;
+    }
 }
