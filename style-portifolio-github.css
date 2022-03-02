@@ -34,6 +34,7 @@ body{
     .container{
         justify-content: center;
         width: 90%;
+        flex-direction: column;
     }
     .artigo1{
         margin-top: 150px;
@@ -50,8 +51,6 @@ body{
         margin-top: 40px;
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
         padding: 25px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
@@ -82,13 +81,10 @@ body{
         padding: 40px 0 20px 0;
         font-size: 25px;
         color: darkolivegreen;
-        width: 90%;
     }
     .artigo3{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
         padding: 25px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
@@ -119,10 +115,9 @@ body{
     .artigo4{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
         padding: 25px;
-        margin-top: 100px;
+        height: 250px;
+        margin-top: 40px;
         margin-bottom: 40px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
@@ -133,8 +128,6 @@ body{
     .artigo5{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
         padding: 25px;
         margin-bottom: 140px;
         box-shadow: 0px 5px 9px darkolivegreen;
@@ -142,13 +135,14 @@ body{
 }
 
 /*TAMANHO SM - LANDSCAPE MOBILE*/
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
     .header{
         background-color: lightseagreen;
+        align-items: center;
+        flex-direction: column;
         position: fixed;
         width: 100%;
         justify-content: space-between;
-        align-items: flex-end;
         box-shadow: 0px 3px 9px darkolivegreen;
     }
     .flex{
@@ -159,10 +153,7 @@ body{
         text-decoration: none;
         color: white;
         font-size: 40px;
-        padding: 20px 0 0px 60px;
-    }
-    .nav{
-        padding-right: 0px;
+        padding-top:20px;
     }
     .nav-link{
         color: white;
@@ -170,9 +161,11 @@ body{
     }
     .container{
         justify-content: center;
+        width: 90%;
+        flex-direction: column;
     }
     .artigo1{
-        margin-top: 120px;
+        margin-top: 150px;
         background-color: lightseagreen;
         border-radius: 10px;
         padding: 25px;
@@ -186,8 +179,6 @@ body{
         margin-top: 40px;
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
         padding: 25px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
@@ -215,16 +206,13 @@ body{
     }
     p{
         text-align: center;
-        padding: 40px 0 20px 0;
+        padding: 40px 40px 20px 40px;
         font-size: 25px;
         color: darkolivegreen;
-        width: 90%;
     }
     .artigo3{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
         padding: 25px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
@@ -235,7 +223,6 @@ body{
         color: darkolivegreen;
     }
     td{
-        color: white;
         font-size: 20px;
         padding: 20px;
     }
@@ -249,17 +236,16 @@ body{
         text-align: center;
         justify-content:center;
         background-color: white;
-        border-radius: 30%;
+        border-radius: 10px;
         padding: 30px 0 0 0;
         color: darkolivegreen;
     }
     .artigo4{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
         padding: 25px;
-        margin-top: 150px;
+        height: 250px;
+        margin-top: 40px;
         margin-bottom: 40px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
@@ -270,8 +256,6 @@ body{
     .artigo5{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
         padding: 25px;
         margin-bottom: 140px;
         box-shadow: 0px 5px 9px darkolivegreen;
@@ -279,13 +263,14 @@ body{
 }
 
 /*TAMANHO MD - PORTRAIT TABLET*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
     .header{
         background-color: lightseagreen;
+        align-items: center;
+        flex-direction: column;
         position: fixed;
         width: 100%;
         justify-content: space-between;
-        align-items: flex-end;
         box-shadow: 0px 3px 9px darkolivegreen;
     }
     .flex{
@@ -296,10 +281,7 @@ body{
         text-decoration: none;
         color: white;
         font-size: 40px;
-        padding: 20px 0 0px 60px;
-    }
-    .nav{
-        padding-right: 0px;
+        padding-top:20px;
     }
     .nav-link{
         color: white;
@@ -307,9 +289,11 @@ body{
     }
     .container{
         justify-content: center;
+        width: 90%;
+        flex-direction: column;
     }
     .artigo1{
-        margin-top: 120px;
+        margin-top: 150px;
         background-color: lightseagreen;
         border-radius: 10px;
         padding: 25px;
@@ -323,8 +307,6 @@ body{
         margin-top: 40px;
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
         padding: 25px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
@@ -352,15 +334,13 @@ body{
     }
     p{
         text-align: center;
-        padding: 40px 0 20px 0;
+        padding: 40px 40px 20px 40px;
         font-size: 25px;
         color: darkolivegreen;
     }
     .artigo3{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
         padding: 25px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
@@ -371,7 +351,6 @@ body{
         color: darkolivegreen;
     }
     td{
-        color: white;
         font-size: 20px;
         padding: 20px;
     }
@@ -385,17 +364,16 @@ body{
         text-align: center;
         justify-content:center;
         background-color: white;
-        border-radius: 30%;
+        border-radius: 10px;
         padding: 30px 0 0 0;
         color: darkolivegreen;
     }
     .artigo4{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
         padding: 25px;
-        margin-top: 140px;
+        height: 250px;
+        margin-top: 40px;
         margin-bottom: 40px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
@@ -406,8 +384,6 @@ body{
     .artigo5{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
         padding: 25px;
         margin-bottom: 140px;
         box-shadow: 0px 5px 9px darkolivegreen;
@@ -415,7 +391,7 @@ body{
 }
 
 /*TAMANHO MD - LANDSCAPE TABLET*/
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
     .header{
         background-color: lightseagreen;
         position: fixed;
@@ -443,12 +419,15 @@ body{
     }
     .container{
         justify-content: center;
+        align-items:baseline;
     }
     .artigo1{
         margin-top: 120px;
+        margin-right: 20px;
         background-color: lightseagreen;
         border-radius: 10px;
         padding: 25px;
+        width: 45%;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
     ul{
@@ -457,11 +436,12 @@ body{
     }
     .artigo2{
         margin-top: 40px;
+        margin-left: 20px;
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
+        width: 45%;;
         height: 100%;
-        padding: 25px;
+        padding: 25px 0 325px 25px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
     h2{
@@ -491,12 +471,13 @@ body{
         padding: 40px 0 20px 0;
         font-size: 25px;
         color: darkolivegreen;
+        width: 100em;
     }
     .artigo3{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
+        margin-top: 0px;
+        width: 95%;
         padding: 25px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
@@ -528,10 +509,10 @@ body{
     .artigo4{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
+        width: 95%;
+        height: 300px;
         padding: 25px;
-        margin-top: 130px;
+        margin-top: 40px;
         margin-bottom: 40px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
@@ -542,7 +523,7 @@ body{
     .artigo5{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
+        width: 95%;
         height: 100%;
         padding: 25px;
         margin-bottom: 140px;
@@ -551,7 +532,7 @@ body{
 }
 
 /*TAMANHO XL - DESKTOP*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
     .header{
         background-color: lightseagreen;
         position: fixed;
@@ -579,12 +560,15 @@ body{
     }
     .container{
         justify-content: center;
+        align-items:baseline;
     }
     .artigo1{
         margin-top: 120px;
+        margin-right: 20px;
         background-color: lightseagreen;
         border-radius: 10px;
         padding: 25px;
+        width: 45%;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
     ul{
@@ -593,11 +577,12 @@ body{
     }
     .artigo2{
         margin-top: 40px;
+        margin-left: 20px;
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
-        padding: 25px;
+        width: 45%;;
+        height: 483px;
+        padding: 25px 0 325px 25px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
     h2{
@@ -627,12 +612,13 @@ body{
         padding: 40px 0 20px 0;
         font-size: 25px;
         color: darkolivegreen;
+        width: 100em;
     }
     .artigo3{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
+        margin-top: 0px;
+        width: 94%;
         padding: 25px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
@@ -664,9 +650,10 @@ body{
     .artigo4{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
+        width: 94%;
+        height: 300px;
         padding: 25px;
+        margin-top: 40px;
         margin-bottom: 40px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
@@ -677,7 +664,7 @@ body{
     .artigo5{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
+        width: 94%;
         height: 100%;
         padding: 25px;
         margin-bottom: 140px;
@@ -714,13 +701,15 @@ body{
     }
     .container{
         justify-content: center;
+        align-items:baseline;
     }
     .artigo1{
         margin-top: 120px;
+        margin-right: 20px;
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100%;
         padding: 25px;
+        width: 45%;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
     ul{
@@ -729,11 +718,12 @@ body{
     }
     .artigo2{
         margin-top: 40px;
+        margin-left: 20px;
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
-        padding: 25px;
+        width: 45%;;
+        height: 483px;
+        padding: 25px 0 325px 25px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
     h2{
@@ -763,12 +753,13 @@ body{
         padding: 40px 0 20px 0;
         font-size: 25px;
         color: darkolivegreen;
+        width: 100em;
     }
     .artigo3{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
+        margin-top: 0px;
+        width: 93%;
         padding: 25px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
@@ -800,9 +791,10 @@ body{
     .artigo4{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
-        height: 100%;
+        width: 93%;
+        height: 300px;
         padding: 25px;
+        margin-top: 40px;
         margin-bottom: 40px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
@@ -813,7 +805,7 @@ body{
     .artigo5{
         background-color: lightseagreen;
         border-radius: 10px;
-        width: 100em;
+        width: 93%;
         height: 100%;
         padding: 25px;
         margin-bottom: 140px;
