@@ -41,6 +41,7 @@ body{
         background-color: lightseagreen;
         border-radius: 10px;
         padding: 25px;
+        font-size: 15px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
     ul{
@@ -52,6 +53,7 @@ body{
         background-color: lightseagreen;
         border-radius: 10px;
         padding: 25px;
+        font-size: 15px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
     h2{
@@ -81,11 +83,13 @@ body{
         padding: 40px 0 20px 0;
         font-size: 25px;
         color: darkolivegreen;
+        font-size: 20px;
     }
     .artigo3{
         background-color: lightseagreen;
         border-radius: 10px;
         padding: 25px;
+        width: 100%;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
     .artigo3 h2{
@@ -119,6 +123,7 @@ body{
         height: 250px;
         margin-top: 40px;
         margin-bottom: 40px;
+        font-size: 15px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
     h3{
@@ -130,6 +135,7 @@ body{
         border-radius: 10px;
         padding: 25px;
         margin-bottom: 140px;
+        font-size: 15px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
 }
@@ -214,6 +220,7 @@ body{
         background-color: lightseagreen;
         border-radius: 10px;
         padding: 25px;
+        height: 300px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
     .artigo3 h2{
