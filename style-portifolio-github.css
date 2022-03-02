@@ -41,19 +41,17 @@ body{
         background-color: lightseagreen;
         border-radius: 10px;
         padding: 25px;
-        font-size: 15px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
-    ul{
-        font-size: 22px;
+    .ul1e2 {
+        font-size: 18px;
         color: white;
     }
     .artigo2{
         margin-top: 40px;
         background-color: lightseagreen;
         border-radius: 10px;
-        padding: 25px 0 0 5px;
-        font-size: 15px;
+        padding: 25px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
     h2{
@@ -73,10 +71,12 @@ body{
     #eu-sou{
         list-style-type: square;
         line-height: 35px;
+        padding: 20px;
     }
     #interesses{
         list-style-type: none;
         line-height: 40px;
+        padding: 0;
     }
     p{
         text-align: center;
@@ -96,25 +96,23 @@ body{
         padding-bottom: 0;
     }
     #asterisco{
-        color: darkolivegreen;
-    }
-    td{
-        font-size: 20px;
-        padding: 20px;
-    }
-    tr{
-        justify-content:space-around;
-    }
-    #table-title{
         color: white;
+        font-size: 15px;
     }
     .table{
-        text-align: center;
-        justify-content:center;
+        display: none;
+    }
+    .lista{
+        flex-direction: column;
+        padding: 20px 0 0 10px;
+        list-style-type: none;
         background-color: white;
-        border-radius: 10px;
-        padding: 30px 0 0 0;
         color: darkolivegreen;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+    #lista{
+        padding-bottom: 40px;
     }
     .artigo4{
         background-color: lightseagreen;
@@ -123,7 +121,7 @@ body{
         height: 250px;
         margin-top: 40px;
         margin-bottom: 40px;
-        font-size: 15px;
+        font-size: 18px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
     h3{
@@ -135,7 +133,7 @@ body{
         border-radius: 10px;
         padding: 25px;
         margin-bottom: 140px;
-        font-size: 15px;
+        font-size: 18px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
 }
@@ -150,6 +148,9 @@ body{
         width: 100%;
         justify-content: space-between;
         box-shadow: 0px 3px 9px darkolivegreen;
+    }
+    .lista{
+        display: none;
     }
     .flex{
         display: flex;
@@ -220,7 +221,6 @@ body{
         background-color: lightseagreen;
         border-radius: 10px;
         padding: 25px;
-        height: 300px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
     .artigo3 h2{
@@ -244,7 +244,7 @@ body{
         justify-content:center;
         background-color: white;
         border-radius: 10px;
-        padding: 30px 0 0 0;
+        padding: 10px 0 10px 0;
         color: darkolivegreen;
     }
     .artigo4{
@@ -280,6 +280,9 @@ body{
         justify-content: space-between;
         box-shadow: 0px 3px 9px darkolivegreen;
     }
+    .lista{
+        display: none;
+    }
     .flex{
         display: flex;
     }
@@ -372,7 +375,7 @@ body{
         justify-content:center;
         background-color: white;
         border-radius: 10px;
-        padding: 30px 0 0 0;
+        padding: 10px 0 10px 0;
         color: darkolivegreen;
     }
     .artigo4{
@@ -406,6 +409,9 @@ body{
         justify-content: space-between;
         align-items: flex-end;
         box-shadow: 0px 3px 9px darkolivegreen;
+    }
+    .lista{
+        display: none;
     }
     .flex{
         display: flex;
@@ -495,7 +501,6 @@ body{
         color: darkolivegreen;
     }
     td{
-        color: white;
         font-size: 20px;
         padding: 20px;
     }
@@ -509,8 +514,8 @@ body{
         text-align: center;
         justify-content:center;
         background-color: white;
-        border-radius: 30%;
-        padding: 30px 0 0 0;
+        border-radius: 10px;
+        padding: 10px 0 10px 0;
         color: darkolivegreen;
     }
     .artigo4{
@@ -548,6 +553,9 @@ body{
         align-items: flex-end;
         box-shadow: 0px 3px 9px darkolivegreen;
     }
+    .lista{
+        display: none;
+    }
     .flex{
         display: flex;
     }
@@ -636,7 +644,6 @@ body{
         color: darkolivegreen;
     }
     td{
-        color: white;
         font-size: 20px;
         padding: 20px;
     }
@@ -650,8 +657,8 @@ body{
         text-align: center;
         justify-content:center;
         background-color: white;
-        border-radius: 30%;
-        padding: 30px 0 0 0;
+        border-radius: 10px;
+        padding: 10px 0 10px 0;
         color: darkolivegreen;
     }
     .artigo4{
@@ -689,6 +696,9 @@ body{
         align-items: flex-end;
         box-shadow: 0px 3px 9px darkolivegreen;
     }
+    .lista{
+        display: none;
+    }
     .flex{
         display: flex;
     }
@@ -777,7 +787,6 @@ body{
         color: darkolivegreen;
     }
     td{
-        color: white;
         font-size: 20px;
         padding: 20px;
     }
@@ -791,8 +800,8 @@ body{
         text-align: center;
         justify-content:center;
         background-color: white;
-        border-radius: 30%;
-        padding: 30px 0 0 0;
+        border-radius: 10px;
+        padding: 10px 0 10px 0;
         color: darkolivegreen;
     }
     .artigo4{
@@ -819,4 +828,3 @@ body{
         box-shadow: 0px 5px 9px darkolivegreen;
     }
 }
-
