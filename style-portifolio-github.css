@@ -16,7 +16,7 @@ body{
         width: 100%;
         justify-content: space-between;
         box-shadow: 0px 3px 9px darkolivegreen;
-        z-index: 1;
+        z-index: 2;
     }
     .flex{
         display: flex;
@@ -124,10 +124,12 @@ body{
         margin-bottom: 40px;
         font-size: 18px;
         box-shadow: 0px 5px 9px darkolivegreen;
+        z-index: 1;
     }
     .w-100{
         height: 250px;
         border-radius: 10px;
+        z-index: 1;
     }
     h3{
         text-align: center;
@@ -160,7 +162,7 @@ body{
         width: 100%;
         justify-content: space-between;
         box-shadow: 0px 3px 9px darkolivegreen;
-        z-index: 1;
+        z-index: 2;
     }
     .lista{
         display: none;
@@ -268,10 +270,12 @@ body{
         margin-top: 40px;
         margin-bottom: 40px;
         box-shadow: 0px 5px 9px darkolivegreen;
+        z-index: 1;
     }
     .w-100{
         height: 250px;
         border-radius: 10px;
+        z-index: 1;
     }
     h3{
         text-align: center;
@@ -303,6 +307,7 @@ body{
         width: 100%;
         justify-content: space-between;
         box-shadow: 0px 3px 9px darkolivegreen;
+        z-index: 2;
     }
     .lista{
         display: none;
@@ -410,10 +415,12 @@ body{
         height: 600px;
         margin-bottom: 40px;
         box-shadow: 0px 5px 9px darkolivegreen;
+        z-index: 1;
     }
     .w-100{
         height: 450px;
         border-radius: 10px;
+        z-index: 1;
     }
     h3{
         text-align: center;
@@ -444,7 +451,7 @@ body{
         justify-content: space-between;
         align-items: flex-end;
         box-shadow: 0px 3px 9px darkolivegreen;
-        z-index: 1;
+        z-index: 2;
     }
     .lista{
         display: none;
@@ -563,10 +570,12 @@ body{
         margin-top: 40px;
         margin-bottom: 40px;
         box-shadow: 0px 5px 9px darkolivegreen;
+        z-index: 1;
     }
     .w-100{
         height: 500px;
         border-radius: 10px;
+        z-index: 1;
     }
     h3{
         text-align: center;
@@ -599,7 +608,7 @@ body{
         justify-content: space-between;
         align-items: flex-end;
         box-shadow: 0px 3px 9px darkolivegreen;
-        z-index: 1;
+        z-index: 2;
     }
     .lista{
         display: none;
@@ -718,10 +727,12 @@ body{
         margin-top: 40px;
         margin-bottom: 40px;
         box-shadow: 0px 5px 9px darkolivegreen;
+        z-index: 1;
     }
     .w-100{
         height: 520px;
         border-radius: 10px;
+        z-index: 1;
     }
     h3{
         text-align: center;
@@ -754,7 +765,7 @@ body{
         justify-content: space-between;
         align-items: flex-end;
         box-shadow: 0px 3px 9px darkolivegreen;
-        z-index: 1;
+        z-index: 2;
     }
     .lista{
         display: none;
@@ -825,7 +836,7 @@ body{
         list-style-type: none;
         line-height: 40px;
     }
-    p{
+    #sou{
         text-align: center;
         padding: 40px 0 20px 0;
         font-size: 25px;
@@ -864,6 +875,12 @@ body{
         padding: 10px 0 10px 0;
         color: darkolivegreen;
     }
+    #ancora-portifolio{
+        height: 40px;
+    }
+    #ancora-contato{
+        height: 40px;
+    }
     .artigo4{
         background-color: lightseagreen;
         border-radius: 10px;
@@ -873,10 +890,12 @@ body{
         margin-top: 40px;
         margin-bottom: 40px;
         box-shadow: 0px 5px 9px darkolivegreen;
+        z-index: 1;
     }
     .w-100{
         height: 550px;
         border-radius: 10px;
+        z-index: 1;
     }
     h3{
         text-align: center;
@@ -897,5 +916,8 @@ body{
         background-color: white;
         border-radius: 10px;
         padding: 20px 0 20px 0;
+    }
+    footer{
+        text-align: center;
     }
 }
