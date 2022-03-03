@@ -136,6 +136,13 @@ body{
         font-size: 18px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
+    .contato{
+        justify-content: space-around;
+        padding-bottom: 20px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 0 20px 0;
+    }
 }
 
 /*TAMANHO SM - LANDSCAPE MOBILE*/
@@ -267,6 +274,13 @@ body{
         margin-bottom: 140px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
+    .contato{
+        justify-content: space-around;
+        padding-bottom: 20px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 0 20px 0;
+    }
 }
 
 /*TAMANHO MD - PORTRAIT TABLET*/
@@ -397,6 +411,13 @@ body{
         padding: 25px;
         margin-bottom: 140px;
         box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    .contato{
+        justify-content: space-around;
+        padding-bottom: 20px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 0 20px 0;
     }
 }
 
@@ -541,6 +562,13 @@ body{
         margin-bottom: 140px;
         box-shadow: 0px 5px 9px darkolivegreen;
     }
+    .contato{
+        justify-content: space-around;
+        padding-bottom: 20px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 0 20px 0;
+    }
 }
 
 /*TAMANHO XL - DESKTOP*/
@@ -683,6 +711,13 @@ body{
         padding: 25px;
         margin-bottom: 140px;
         box-shadow: 0px 5px 9px darkolivegreen;
+    }
+    .contato{
+        justify-content: space-around;
+        padding-bottom: 20px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 0 20px 0;
     }
 }
 
@@ -834,3 +869,4 @@ body{
         border-radius: 10px;
         padding: 20px 0 20px 0;
     }
+}
