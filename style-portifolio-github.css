@@ -150,6 +150,15 @@ body{
         border-radius: 10px;
         padding: 20px 0 20px 0;
     }
+    #ancora-portifolio{
+        height: 90px;
+    }
+    #ancora-contato{
+        height: 0;
+    }
+    footer{
+        text-align: center;
+    }
 }
 
 /*TAMANHO SM - LANDSCAPE MOBILE*/
@@ -295,6 +304,15 @@ body{
         border-radius: 10px;
         padding: 20px 0 20px 0;
     }
+    #ancora-portifolio{
+        height: 90px;
+    }
+    #ancora-contato{
+        height: 0;
+    }
+    footer{
+        text-align: center;
+    }
 }
 
 /*TAMANHO MD - PORTRAIT TABLET*/
@@ -439,6 +457,15 @@ body{
         background-color: white;
         border-radius: 10px;
         padding: 20px 0 20px 0;
+    }
+    #ancora-portifolio{
+        height: 90px;
+    }
+    #ancora-contato{
+        height: 0;
+    }
+    footer{
+        text-align: center;
     }
 }
 
@@ -597,6 +624,15 @@ body{
         border-radius: 10px;
         padding: 20px 0 20px 0;
     }
+    #ancora-portifolio{
+        height: 90px;
+    }
+    #ancora-contato{
+
+    }
+    footer{
+        text-align: center;
+    }
 }
 
 /*TAMANHO XL - DESKTOP*/
@@ -754,6 +790,15 @@ body{
         border-radius: 10px;
         padding: 20px 0 20px 0;
     }
+    #ancora-portifolio{
+        height: 90px;
+    }
+    #ancora-contato{
+        height: 0;
+    }
+    footer{
+        text-align: center;
+    }
 }
 
 /*TAMANHO XXL - TV*/
@@ -876,10 +921,10 @@ body{
         color: darkolivegreen;
     }
     #ancora-portifolio{
-        height: 40px;
+        height: 90px;
     }
     #ancora-contato{
-        height: 40px;
+        height: 0;
     }
     .artigo4{
         background-color: lightseagreen;
